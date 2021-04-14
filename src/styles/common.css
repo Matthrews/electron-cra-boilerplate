@@ -1,0 +1,18 @@
+
+/* padding */
+.pd12 {
+  padding: 12px;
+}
+.ppl12 {
+  padding-left: 12px;
+}
+.ppr12 {
+  padding-left: 12px;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+

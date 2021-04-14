@@ -1,0 +1,4 @@
+@import "~antd/dist/antd.css";
+
+.init-loading { display: flex; justify-content: center; align-items: center }
+
