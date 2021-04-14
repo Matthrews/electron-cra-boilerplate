@@ -4,7 +4,7 @@
 
 ## scripts
 
-### 开发
+### 开发环境启动
 
 ```bash
 yarn electron-dev
@@ -29,3 +29,9 @@ npx create-react-app my-electron-app --template typescript
 6. 引入 electron 和 electron-builder
 
 > 注意：`webpack.config.js`的`target`要设置为`electron-renderer`
+
+
+## TODO 
+
+1. 文件后缀统一
+2. Webpack 使用`rescripts`替代`react-scripts`
