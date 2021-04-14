@@ -9,6 +9,7 @@ module.exports = {
     },
     entry: {
         bundle: ["./src/index.tsx"],
+        electron: ["./electron.tsx"],
     },
     output: {
         filename: "[name].js",
@@ -90,4 +91,6 @@ module.exports = {
     plugins: [
         new SpeedMeasurePlugin(),  // 用于测试打包性能
     ],
+
+    target: "electron-renderer", // 指定打包应用类型
 };

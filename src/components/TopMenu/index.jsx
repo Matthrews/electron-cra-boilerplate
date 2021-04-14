@@ -20,7 +20,7 @@ function TopMenu(props) {
           <Link to="/chart">图表</Link>
         </Menu.Item>
         <Menu.Item key="/editor">
-          <Link to="/editor">在线编辑器</Link>
+          <Link to="/editor">Markdown编辑器</Link>
         </Menu.Item>
         <Menu.Item key="/about">
           <Link to="/about">关于</Link>
